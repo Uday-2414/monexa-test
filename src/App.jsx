@@ -1,6 +1,6 @@
 
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Team from "./pages/Team.jsx";
@@ -11,7 +11,7 @@ import ScrollToTop from "./reusable/ScrollToTop.jsx";
 
 function App() {
   return (
-    <Router basename="/monexa-test/">
+    <Router basename="/">
       <ScrollToTop />
       <Navbar />
       <Routes>

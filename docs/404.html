@@ -7,14 +7,12 @@
       // GitHub Pages 404 SPA redirect
       (function() {
         var l = window.location;
-        var pathname = l.pathname.replace(/\/+/g, "/");
         var repo = "/monexa-test";
-        if (!pathname.startsWith(repo)) {
-          repo = "";
-        }
-        var redirectTo = repo + "/index.html" + l.search + l.hash;
-        // Only redirect if not already at index.html
-        if (!pathname.endsWith("index.html")) {
+        var path = l.pathname.replace(repo, "");
+        var hash = l.hash || "";
+        var search = l.search || "";
+        var redirectTo = repo + "/index.html#" + path + search + hash;
+        if (!l.pathname.endsWith("index.html")) {
           window.location.replace(redirectTo);
         }
       })();
