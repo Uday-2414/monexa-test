@@ -1,0 +1,1 @@
+npx shadcn@latest add https://coss.com/origin/r/comp-587.json

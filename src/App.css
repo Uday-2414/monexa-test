@@ -1,0 +1,2 @@
+/* Fonts and root variables have been moved to src/index.css (imported by main.jsx)
+   to ensure they're loaded globally. Keep App-specific styles here. */
