@@ -281,7 +281,8 @@ export default function MonexaFutureSections() {
             </h2>
 
             <p className={`text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed ${isVisible ? 'animate-fadeInUp delay-100' : 'opacity-0'}`}>
-              Join leading healthcare institutions and research organizations transforming medical diagnostics with AI-powered precision and clinical excellence
+              Join healthcare institutions and research teams working to improve clinical workflows with AI-driven support.
+
             </p>
           </div>
 
@@ -293,12 +294,12 @@ export default function MonexaFutureSections() {
               <span className="relative z-10 transition-transform duration-500 group-hover:translate-x-2">→</span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
             </Link>
-            <Link to="/contact">
+            {/* <Link to="/contact">
             <button className="group px-12 py-5 bg-white border-2 border-black text-black rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-110 hover:bg-black hover:text-white inline-flex items-center gap-3">
               <Mail className="w-5 h-5 transition-all duration-500 group-hover:rotate-12" />
               <span>Contact Our Team</span>
             </button>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Value Propositions for Stakeholders */}
@@ -308,14 +309,15 @@ export default function MonexaFutureSections() {
                 <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center">
                   <Shield className="w-5 h-5 text-white" />
                 </div>
-                For Healthcare Leaders
+                💼 For Healthcare Leaders
+
               </h3>
               <ul className="space-y-3">
                 {[
-                  "Reduce diagnostic errors by up to 40%",
-                  "Accelerate time-to-diagnosis by 60%",
-                  "Enhance clinical workflow efficiency",
-                  "Evidence-based decision support"
+                  "Improve reporting consistency",
+                  "Reduce manual workload",
+                  "Accelerate clinical workflows",
+                  "Support decision-making with transparent AI outputs"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-gray-700 opacity-0 animate-fadeInUp" style={{ animationDelay: `${0.4 + idx * 0.1}s`, animationFillMode: 'forwards' }}>
                     <CheckCircle className="w-5 h-5 text-cyan-500 flex-shrink-0 mt-1 transition-transform duration-300 hover:scale-125" />
@@ -330,14 +332,14 @@ export default function MonexaFutureSections() {
                 <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-cyan-600 rounded-lg flex items-center justify-center">
                   <Globe className="w-5 h-5 text-white" />
                 </div>
-                For Research Institutions
+                🎓 For Research Institutions
               </h3>
               <ul className="space-y-3">
                 {[
-                  "Collaborative research opportunities",
-                  "Access to advanced AI infrastructure",
-                  "Multi-institutional data partnerships",
-                  "Published clinical validation studies"
+                  "Collaborative development opportunities",
+                  "Access to our clinical AI infrastructure",
+                  "Multi-center research support",
+                  "Co-development and validation partnerships"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-gray-700 opacity-0 animate-fadeInUp" style={{ animationDelay: `${0.4 + idx * 0.1}s`, animationFillMode: 'forwards' }}>
                     <CheckCircle className="w-5 h-5 text-cyan-500 flex-shrink-0 mt-1 transition-transform duration-300 hover:scale-125" />
@@ -352,9 +354,9 @@ export default function MonexaFutureSections() {
           <div className={`pt-12 border-t-2 border-gray-200 ${isVisible ? 'animate-fadeInUp delay-600' : 'opacity-0'}`}>
             <div className="flex flex-wrap justify-center gap-12 items-center">
               {[
-                { icon: Shield, text: "HIPAA Compliant" },
-                { icon: CheckCircle, text: "ISO 27001 Certified" },
-                { icon: Shield, text: "FDA Compliant" },
+                { icon: Shield, text: "Built with security" },
+                { icon: CheckCircle, text: "clinical safety in mind" },
+                { icon: Shield, text: "privacy" },
                 { icon: Globe, text: "Global Standards" }
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-3 text-gray-600 transition-all duration-500 hover:scale-110 hover:text-cyan-600 cursor-pointer group">

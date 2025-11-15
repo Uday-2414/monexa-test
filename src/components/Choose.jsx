@@ -4,8 +4,8 @@ export default function Choose(){
         <div className="bg-gradient-to-br from-blue-50 via-purple-50 to-cyan-50 py-24 px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold text-gray-900 mb-6">Why Choose MONA?</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">Built with precision, designed for real-world healthcare challenges</p>
+            <h2 className="text-5xl font-bold text-gray-900 mb-6">Why MONA?</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">MONA is designed for real clinical environments — transparent, workflow-first, and easy to integrate.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
@@ -22,9 +22,11 @@ export default function Choose(){
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900">Explainable AI</h3>
+                  <h3 className="text-lg font-bold text-gray-900">🔍 Clinician-controlled transparency
+</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm">Clear insights with transparency in every diagnostic</p>
+                <p className="text-gray-600 leading-relaxed text-sm">Every output is reviewable and designed for trust.
+</p>
               </div>
             </div>
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
@@ -41,9 +43,11 @@ export default function Choose(){
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900">Multi-Modality</h3>
+                  <h3 className="text-lg font-bold text-gray-900">🧠 Workflow-first intelligence
+</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm">Unified platform for all imaging types</p>
+                <p className="text-gray-600 leading-relaxed text-sm">Optimizes routing, prioritization, and reporting within existing hospital systems.
+</p>
               </div>
             </div>
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
@@ -60,9 +64,11 @@ export default function Choose(){
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900">EHR Integration</h3>
+                  <h3 className="text-lg font-bold text-gray-900">🔗 Seamless adoption
+</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm">Seamless compatibility with hospitals</p>
+                <p className="text-gray-600 leading-relaxed text-sm">Fits into current PACS/RIS/HIS workflows without disruption.
+</p>
               </div>
             </div>
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
@@ -79,9 +85,10 @@ export default function Choose(){
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900">Continuous Learning</h3>
+                  <h3 className="text-lg font-bold text-gray-900">🩻 Built for multi-modality workflows
+</h3>
                 </div>
-                <p className="text-gray-600 leading-relaxed text-sm">AI that evolves with every case</p>
+                <p className="text-gray-600 leading-relaxed text-sm">Supports imaging pipelines across X-ray, CT, MRI, and ultrasound.</p>
               </div>
             </div>
           </div>
