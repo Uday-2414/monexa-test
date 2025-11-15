@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound.jsx";
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/monexa-test/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
