@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-      // Redirect all 404s to the SPA entry point
-      var l = window.location;
-      var base = '/monexa-test';
-      var path = l.pathname.replace(base, '');
-      window.location.replace(base + '/index.html?redirect=' + encodeURIComponent(path + l.search + l.hash));
+      // GitHub Pages 404 SPA redirect
+      (function() {
+        var l = window.location;
+        var pathname = l.pathname.replace(/\/+/g, "/");
+        var repo = "/monexa-test";
+        if (!pathname.startsWith(repo)) {
+          repo = "";
+        }
+        var redirectTo = repo + "/index.html" + l.search + l.hash;
+        // Only redirect if not already at index.html
+        if (!pathname.endsWith("index.html")) {
+          window.location.replace(redirectTo);
+        }
+      })();
     </script>
   </head>
   <body>

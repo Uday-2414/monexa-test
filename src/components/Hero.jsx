@@ -8,7 +8,7 @@ export default function Hero() {
 };
   return (
     <div
-      className="sm:min-h-screen  bg-gradient-hero
+      className="min-h-screen bg-gradient-hero
  flex flex-col items-center justify-center text-center"
     >
       <div className="flex flex-col items-center justify-center text-center">
