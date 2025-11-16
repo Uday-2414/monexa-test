@@ -8,7 +8,7 @@ export default function TeamPage() {
   const [isVisible, setIsVisible] = useState({});
   const observerRef = useRef(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     
@@ -35,25 +35,25 @@ export default function TeamPage() {
 
   const founders = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Co-Founder & CEO",
+      name: "Vamsi Krishna K",
+      role: "Founder &  CEO",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-      bio: "Former Head of AI Research at Stanford Medical. 15+ years pioneering machine learning applications in diagnostic imaging.",
-      linkedin: "#"
     },
     {
-      name: "Dr. James Mitchell",
-      role: "Co-Founder & Chief Medical Officer",
+      name: "Uday Kumar V",
+      role: "Lead Full-Stack Developer",
       image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
-      bio: "Board-certified radiologist with 20 years clinical experience. Led digital transformation at Johns Hopkins Hospital.",
-      linkedin: "#"
+      
     },
     {
-      name: "Alex Kumar",
-      role: "Co-Founder & CTO",
+      name: "Amar Saraf",
+      role: "Clinical Lead (Medical Workflow & Compliance)",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
-      bio: "Ex-Google AI engineer. Built scalable ML systems serving millions. PhD in Computer Vision from MIT.",
-      linkedin: "#"
+    },
+    {
+      name: "Dr. Joshuva Arokia Dhanaraj",
+      role: "Technical Advisor",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
     }
   ];
 
@@ -272,7 +272,7 @@ export default function TeamPage() {
           </h1>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed animate-fadeInUp stagger-2" style={{fontFamily: 'Inter, sans-serif', animationDelay: '0.2s'}}>
-            A team of innovators, doctors, and AI engineers committed to redefining clinical care through trusted, explainable, and validated artificial intelligence.
+            A team of Innovators, Doctors, and AI Engineers committed to redefining clinical care through trusted, explainable, and validated artificial intelligence.
           </p>
 
           {/* Decorative Line */}

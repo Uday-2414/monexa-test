@@ -95,7 +95,7 @@ export default function Choose(){
           <div className="text-center">
             <div className="inline-block bg-white rounded-2xl px-12 py-8 shadow-2xl border-2 border-blue-200">
               <p className="text-3xl font-bold text-gray-900">
-                Designed with <span className="text-blue-600">doctors</span>, powered by <span className="text-purple-600">AI</span> — trusted by <span className="text-cyan-600">hospitals</span>.
+                Designed with <span className="text-blue-600">Doctors</span>, powered by <span className="text-purple-600">AI</span> — trusted by <span className="text-cyan-600">Hospitals</span>.
               </p>
             </div>
           </div>
