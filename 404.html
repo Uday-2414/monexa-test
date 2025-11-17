@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // GitHub Pages 404 SPA redirect
+      (function() {
+        var l = window.location;
+        var repo = "/monexa-test";
+        var path = l.pathname.replace(repo, "");
+        var hash = l.hash || "";
+        var search = l.search || "";
+        var redirectTo = repo + "/index.html#" + path + search + hash;
+        if (!l.pathname.endsWith("index.html")) {
+          window.location.replace(redirectTo);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
+</html>
