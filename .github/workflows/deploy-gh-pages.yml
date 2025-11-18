@@ -4,32 +4,36 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install dependencies
-        run: |
-          cd my-project
-          npm ci
+        run: npm ci
 
       - name: Build
-        run: |
-          cd my-project
-          npm run build
+        run: npm run build
+
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./my-project/dist
+          github_token: ${{ secrets.GH_PAT }}
+          publish_dir: ./dist
           publish_branch: gh-pages
           keep_files: false
