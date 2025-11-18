@@ -19,7 +19,7 @@ export default function Hero() {
           animateBy="words"
           direction="top"
           onAnimationComplete={handleAnimationComplete}
-          className="font-bold text-4xl sm:text-6xl md:text-6xl lg:text-8xl mb-4 tracking-tight"
+          className="font-bold text-6xl sm:text-6xl md:text-6xl lg:text-8xl mb-4 tracking-tight"
         />
       </div>
       <BlurText
@@ -30,7 +30,7 @@ export default function Hero() {
         animateBy="words"
         direction="top"
         onAnimationComplete={handleAnimationComplete}
-        className="text-xl md:text-3xl lg:text-4xl mb-8"
+        className="text-xl ml-5 mr-4 mb:8 md:text-3xl lg:text-4xl md:mb-8"
       />
 
       <div className="flex gap-4 mt-6 sm:mt-12 flex-col sm:flex-row md:flex-row">
