@@ -353,11 +353,10 @@ export default function TeamPage() {
                   AI. MONA is our commitment to making advanced medical
                   intelligence accessible to all reshaping how diagnostic
                   insights are delivered, understood, and acted upon. Our
-                  mission goes beyond building algorithms; we are creating a
+                  mission goes beyond building algorithms; we're creating a
                   future where AI and clinical expertise work seamlessly
                   together to drive faster decisions, reduce variability, and
-                  elevate patient outcomes on a global scale.
-                </p>
+                  elevate patient outcomes on a global scale.</p>
               </div>
             </div>
           </div>
