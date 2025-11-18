@@ -10,6 +10,9 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import dp from "../assets/dp.jpg";
+import ceo from "../assets/ceo.jpg";
+import cto from "../assets/lead-1.jpg";
 
 export default function TeamPage() {
   const [scrollY, setScrollY] = useState(0);
@@ -45,20 +48,17 @@ export default function TeamPage() {
     {
       name: "Vamsi Krishna K",
       role: "Founder &  CEO",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+      image: ceo,
     },
     {
       name: "Uday Kumar V",
       role: "Lead Full-Stack Developer",
-      image:
-        "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop",
+      image: dp,
     },
     {
       name: "Amar Saraf",
-      role: "Clinical Lead (Medical Workflow & Compliance)",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      role: "Clinical Lead ",
+      image: cto,
     },
     {
       name: "Dr. Joshuva Arokia Dhanaraj",
@@ -353,11 +353,10 @@ export default function TeamPage() {
                   AI. MONA is our commitment to making advanced medical
                   intelligence accessible to all reshaping how diagnostic
                   insights are delivered, understood, and acted upon. Our
-                  mission goes beyond building algorithms; we are creating a
+                  mission goes beyond building algorithms; we're creating a
                   future where AI and clinical expertise work seamlessly
                   together to drive faster decisions, reduce variability, and
-                  elevate patient outcomes on a global scale.
-                </p>
+                  elevate patient outcomes on a global scale.</p>
               </div>
             </div>
           </div>
@@ -473,13 +472,6 @@ export default function TeamPage() {
                   {/* Gradient Overlay on Hover */}
                   <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-                  {/* Floating Badge */}
-                  <div
-                    className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0"
-                    style={{ fontFamily: "Inter, sans-serif" }}
-                  >
-                    Leader
-                  </div>
                 </div>
 
                 <div className="p-8 relative">
@@ -635,12 +627,12 @@ export default function TeamPage() {
               We're always looking for talented individuals passionate about
               transforming healthcare through AI
             </p>
-            <button
+            <Link to="/contact"
               className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               View Open Positions →
-            </button>
+            </Link>
           </div>
         </div>
       </section>

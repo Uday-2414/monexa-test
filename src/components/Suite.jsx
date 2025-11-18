@@ -38,7 +38,7 @@ export default function Suite(){
               </div>
             </div>
 
-    
+           
 
             {/* MONA Rare */}
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-green-400 transform hover:scale-105 overflow-hidden md:col-span-2 lg:col-span-2">
