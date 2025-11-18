@@ -38,26 +38,6 @@ export default function MonaProductsPage() {
       specialization: 'Pattern Recognition & ML'
     },
     {
-      id: 'cardiology',
-      name: 'MONA Cardiology',
-      icon: Heart,
-      color: 'from-red-400 to-rose-600',
-      description: 'Advanced cardiac diagnostics for ECG, echocardiography, and heart disease prediction',
-      benefits: ['Early detection of arrhythmias', 'Heart failure risk assessment', 'Post-operative monitoring'],
-      useCase: 'A cardiac care unit monitors 50 high-risk patients. MONA Cardiology detects atrial fibrillation patterns 2 hours before clinical symptoms, enabling preventive intervention.',
-      specialization: 'Time-Series Analysis & AI'
-    },
-    {
-      id: 'criticalcare',
-      name: 'MONA CriticalCare',
-      icon: Activity,
-      color: 'from-orange-400 to-red-600',
-      description: 'Real-time emergency and ICU AI guidance for critical decision-making',
-      benefits: ['Sepsis prediction 6 hours in advance', 'Continuous vital sign monitoring', 'Treatment recommendation engine'],
-      useCase: 'An ICU with 20 beds uses MONA CriticalCare to monitor patient deterioration. The system alerts staff to early sepsis indicators, reducing mortality by 30%.',
-      specialization: 'Predictive Analytics & NLP'
-    },
-    {
       id: 'rare',
       name: 'MONA Rare',
       icon: Dna,

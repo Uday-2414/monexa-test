@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="flex gap-4 mt-6 sm:mt-12 flex-col sm:flex-row md:flex-row">
         <Link to="/product" className="group relative bg-black text-white px-6 py-3 rounded-lg font-semibold overflow-hidden transition-all duration-300 hover:shadow-2xl hover:scale-105 hover:-translate-y-0.5">
           <span className="relative z-10 flex items-center gap-2">
-           Explore MONA-R
+           Explore MONA-R
             <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
