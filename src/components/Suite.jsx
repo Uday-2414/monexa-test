@@ -38,65 +38,7 @@ export default function Suite(){
               </div>
             </div>
 
-            {/* MONA Pathology */}
-            <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-purple-400 transform hover:scale-105 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-pink-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative z-10">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-4xl mb-6 shadow-lg transform group-hover:rotate-6 transition-transform duration-500">
-                  🧪
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">MONA Pathology</h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  Advanced lab and test analysis powered by AI for accurate pathological assessments.
-                </p>
-                <div className="flex items-center text-purple-600 font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-sm">Learn More</span>
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* MONA Cardiology */}
-            <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-red-400 transform hover:scale-105 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-orange-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative z-10">
-                <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl flex items-center justify-center text-4xl mb-6 shadow-lg transform group-hover:rotate-6 transition-transform duration-500">
-                  💓
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">MONA Cardiology</h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  Comprehensive heart disease diagnostics with ECG analysis and cardiovascular risk assessment.
-                </p>
-                <div className="flex items-center text-red-600 font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-sm">Learn More</span>
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            {/* MONA CriticalCare */}
-            <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-amber-400 transform hover:scale-105 overflow-hidden md:col-span-2 lg:col-span-1">
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-50 to-yellow-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="relative z-10">
-                <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-500 rounded-2xl flex items-center justify-center text-4xl mb-6 shadow-lg transform group-hover:rotate-6 transition-transform duration-500">
-                  🏥
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">MONA CriticalCare</h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                Real-time emergency and ICU AI guidance for critical decision-making when time matters most.
-                </p>
-                <div className="flex items-center text-amber-600 font-semibold group-hover:translate-x-2 transition-transform duration-300">
-                  <span className="text-sm">Learn More</span>
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-            </div>
+           
 
             {/* MONA Rare */}
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-green-400 transform hover:scale-105 overflow-hidden md:col-span-2 lg:col-span-2">
