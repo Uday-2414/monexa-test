@@ -5,7 +5,7 @@ export default function Choose(){
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold text-gray-900 mb-6">Why MONA?</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">MONA is designed for real clinical environments — transparent, workflow-first, and easy to integrate.</p>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">MONA is designed for real clinical environments - transparent, workflow-first, and easy to integrate.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
             <div className="group relative bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3">
@@ -17,11 +17,7 @@ export default function Choose(){
                   </svg>
                 </div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
+                  
                   <h3 className="text-lg font-bold text-gray-900">🔍 Clinician-controlled transparency
 </h3>
                 </div>
@@ -38,11 +34,6 @@ export default function Choose(){
                   </svg>
                 </div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
                   <h3 className="text-lg font-bold text-gray-900">🧠 Workflow-first intelligence
 </h3>
                 </div>
@@ -59,11 +50,7 @@ export default function Choose(){
                   </svg>
                 </div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
+                  
                   <h3 className="text-lg font-bold text-gray-900">🔗 Seamless adoption
 </h3>
                 </div>
@@ -80,11 +67,7 @@ export default function Choose(){
                   </svg>
                 </div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
+                  
                   <h3 className="text-lg font-bold text-gray-900">🩻 Built for multi-modality workflows
 </h3>
                 </div>
@@ -95,7 +78,7 @@ export default function Choose(){
           <div className="text-center">
             <div className="inline-block bg-white rounded-2xl px-12 py-8 shadow-2xl border-2 border-blue-200">
               <p className="text-3xl font-bold text-gray-900">
-                Designed with <span className="text-blue-600">Doctors</span>, powered by <span className="text-purple-600">AI</span> — trusted by <span className="text-cyan-600">Hospitals</span>.
+                Designed with <span className="text-blue-600">Doctors</span>, powered by <span className="text-purple-600">AI</span> - trusted by <span className="text-cyan-600">Hospitals</span>.
               </p>
             </div>
           </div>

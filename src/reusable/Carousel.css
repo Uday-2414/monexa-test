@@ -1,0 +1,6 @@
+@media (max-width: 420px) {
+  .carousel-container {
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+}

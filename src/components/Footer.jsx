@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo1 from "../assets/logo2_transparent.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
+    <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white pl-5 pr-5">
       {/* Wave Divider */}
       <div className="w-full overflow-hidden">
         <svg
@@ -20,15 +20,15 @@ export default function Footer() {
         </svg>
       </div>
 
-      <div className="max-w-7xl mx-auto px-2 py-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+      <div className="max-w-7xl mx-auto px-1 py-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-15 mb-10">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="flex items-center space-x-3">
                 <div className="w-14 h-14 rounded-lg brightness-100 flex items-center justify-center transition-transform duration-300 hover:scale-110 bg-transparent">
                   <img
-                    src={logo}
+                    src={logo1}
                     alt="Monexa Logo"
                     className="w-12 h-12 object-contain"
                   />
@@ -62,14 +62,6 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/about"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  About Us
-                </Link>
-              </li>
-              <li>
-                <Link
                   to="/product"
                   className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
                 >
@@ -91,63 +83,6 @@ export default function Footer() {
                 >
                   Contact us
                 </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Support & Legal */}
-          <div>
-            <h3 className="text-xl font-bold mb-2 text-purple-400">
-              Support & Legal
-            </h3>
-            <ul className="space-y-3">
-              <li>
-                <a
-                  href="#faq"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  FAQs
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#help"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  Help Center
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#privacy"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#terms"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#cookies"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  Cookie Policy
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#compliance"
-                  className="text-gray-300 hover:text-white hover:translate-x-2 inline-block transition-all duration-300"
-                >
-                  Compliance
-                </a>
               </li>
             </ul>
           </div>
@@ -241,7 +176,7 @@ export default function Footer() {
           <div className="flex justify-center gap-6">
             
             <a
-              href="https://www.instagram.com/monexahealth?igsh=MWQzZ2J4dm52aWFxdg=="
+              href="https://www.instagram.com/monexahealth?igsh=MWQzZ2J4dm52aWFxdg==" target="_blank" rel="noopener noreferrer"
               className="group w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg"
             >
               <svg
@@ -253,7 +188,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/monexahealth/" target="_blank" rel="noopener noreferrer"
               className="group w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-600 hover:to-blue-800 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg"
             >
               <svg
@@ -266,7 +201,7 @@ export default function Footer() {
             </a>
         
             <a
-              href="https://x.com/Monexa_Health?t=wbcBPbujgBeH3ZWtQVl4Zw&s=09"
+              href="https://x.com/Monexa_Health?t=wbcBPbujgBeH3ZWtQVl4Zw&s=09" target="_blank" rel="noopener noreferrer"
               className="group w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-400 hover:to-blue-600 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 shadow-lg"
             >
               <svg

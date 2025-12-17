@@ -306,9 +306,7 @@ export default function MonexaFutureSections() {
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className={`p-8 bg-white rounded-2xl border-2 border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${isVisible ? 'animate-slideInLeft delay-300' : 'opacity-0'}`}>
               <h3 className="text-2xl font-bold text-black mb-4 flex items-center gap-3">
-                <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-white" />
-                </div>
+               
                 💼 For Healthcare Leaders
 
               </h3>
@@ -329,9 +327,7 @@ export default function MonexaFutureSections() {
 
             <div className={`p-8 bg-white rounded-2xl border-2 border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 ${isVisible ? 'animate-slideInRight delay-300' : 'opacity-0'}`}>
               <h3 className="text-2xl font-bold text-black mb-4 flex items-center gap-3">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-cyan-600 rounded-lg flex items-center justify-center">
-                  <Globe className="w-5 h-5 text-white" />
-                </div>
+                
                 🎓 For Research Institutions
               </h3>
               <ul className="space-y-3">
@@ -355,7 +351,7 @@ export default function MonexaFutureSections() {
             <div className="flex flex-wrap justify-center gap-12 items-center">
               {[
                 { icon: Shield, text: "Built with security" },
-                { icon: CheckCircle, text: "clinical safety in mind" },
+                { icon: CheckCircle, text: "clinical safety" },
                 { icon: Shield, text: "privacy" },
                 { icon: Globe, text: "Global Standards" }
               ].map((item, idx) => (
