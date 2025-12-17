@@ -9,14 +9,21 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+<<<<<<< Updated upstream
+=======
+    "deploy:docs": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
+    "predeploy": "npm run build",
+>>>>>>> Stashed changes
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@heroui/navbar": "^2.2.25",
     "@heroui/react": "^2.8.5",
     "@tailwindcss/vite": "^4.1.14",
+    "flubber": "^0.4.2",
     "framer-motion": "^12.23.24",
     "gh-pages": "^6.3.0",
+    "gsap": "^3.13.0",
     "lucide-react": "^0.552.0",
     "motion": "^12.23.24",
     "react": "^19.1.1",

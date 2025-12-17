@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 import dp from "../assets/dp.jpg";
 import ceo from "../assets/ceo.jpg";
 import cto from "../assets/lead-1.jpg";
+import ad from "../assets/ad-1.jpg";
 
 export default function TeamPage() {
   const [scrollY, setScrollY] = useState(0);
@@ -49,50 +50,55 @@ export default function TeamPage() {
       name: "Vamsi Krishna K",
       role: "Founder &  CEO",
       image: ceo,
+      linkedin: "http://www.linkedin.com/in/kvamsikrishna-ai",
     },
     {
       name: "Uday Kumar V",
       role: "Lead Full-Stack Developer",
       image: dp,
+      linkedin: "https://www.linkedin.com/in/udaykumar24/",
     },
     {
       name: "Amar Saraf",
       role: "Clinical Lead ",
       image: cto,
     },
+  ];
+
+  const technical = [
     {
       name: "Dr. Joshuva Arokia Dhanaraj",
       role: "Technical Advisor",
-      image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+      image: ad,
+      linkedin: "https://www.linkedin.com/in/joshuva1991/",
     },
   ];
 
-  const advisors = [
-    { name: "Mayo Clinic", logo: "MC", type: "Medical Partner" },
-    { name: "Cleveland Clinic", logo: "CC", type: "Research Collaborator" },
-    { name: "Stanford Health", logo: "SH", type: "Advisory Board" },
-    { name: "MIT CSAIL", logo: "MIT", type: "Research Partner" },
-  ];
+  // const advisors = [
+  //   { name: "Mayo Clinic", logo: "MC", type: "Medical Partner" },
+  //   { name: "Cleveland Clinic", logo: "CC", type: "Research Collaborator" },
+  //   { name: "Stanford Health", logo: "SH", type: "Advisory Board" },
+  //   { name: "MIT CSAIL", logo: "MIT", type: "Research Partner" },
+  // ];
 
   const values = [
     {
       icon: <Heart className="w-8 h-8" />,
       title: "Patient-First",
       description:
-        "Every algorithm we build prioritizes patient safety and clinical outcomes above all else.",
+        "Every system we build prioritizes patient safety and real clinical impact.",
     },
     {
       icon: <Lightbulb className="w-8 h-8" />,
       title: "Explainable AI",
       description:
-        "Transparency in every decision. Our models provide clear, interpretable insights clinicians can trust.",
+        "Our models provide transparent insights clinicians can trust.",
     },
     {
       icon: <Target className="w-8 h-8" />,
       title: "Evidence-Based",
       description:
-        "Validated through rigorous clinical trials and peer-reviewed research across diverse populations.",
+        "Validated through rigorous testing, real-world evaluation and peer-reviewed research.",
     },
   ];
 
@@ -269,8 +275,8 @@ export default function TeamPage() {
       </div>
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-20 px-6">
-        <div className="max-w-6xl mx-auto text-center relative z-10">
+      <section className="relative pt-14 pb-6 px-6">
+        <div className="max-w-6xl mx-auto text-center relative z-10 mt-13">
           <div
             className="inline-block mb-8 animate-fadeInScale"
             style={{
@@ -288,7 +294,7 @@ export default function TeamPage() {
           </div>
 
           <h1
-            className="text-6xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight animate-fadeInUp"
+            className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight animate-fadeInUp"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             Building the Future of
@@ -306,7 +312,7 @@ export default function TeamPage() {
           </p>
 
           {/* Decorative Line */}
-          <div className="mt-12 flex items-center justify-center gap-3 animate-fadeInScale stagger-3">
+          <div className="mt-6 flex items-center justify-center gap-3 animate-fadeInScale stagger-3">
             <div className="h-px w-24 bg-gradient-to-r from-transparent to-blue-400" />
             <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse-glow" />
             <div className="h-px w-24 bg-gradient-to-l from-transparent to-cyan-400" />
@@ -315,7 +321,7 @@ export default function TeamPage() {
       </section>
 
       {/* Vision Statement */}
-      <section className="py-16 px-6">
+      <section className="py-8 px-4 mt-2">
         <div className="max-w-5xl mx-auto">
           <div
             id="vision-card"
@@ -339,24 +345,24 @@ export default function TeamPage() {
                 }
               >
                 <h2
-                  className="text-3xl font-bold text-gray-900 mb-4"
+                  className="text-3xl font-bold text-gray-900 mb-3"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
                   Our Vision
                 </h2>
                 <p
-                  className="text-lg text-gray-700 leading-relaxed"
+                  className="text-md text-gray-700 leading-relaxed"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
                   We envision a healthcare ecosystem where every clinician is
-                  supported by intelligent, reliable, and deeply interpretable
-                  AI. MONA is our commitment to making advanced medical
-                  intelligence accessible to all reshaping how diagnostic
-                  insights are delivered, understood, and acted upon. Our
-                  mission goes beyond building algorithms; we're creating a
-                  future where AI and clinical expertise work seamlessly
-                  together to drive faster decisions, reduce variability, and
-                  elevate patient outcomes on a global scale.</p>
+                  supported by intelligent, reliable and fully interpretable AI.
+                  MONA is our commitment to making advanced medical intelligence
+                  accessible to all, transforming how diagnostic insights are
+                  delivered, understood and applied. Our mission is to build a
+                  future where AI and clinical expertise work together
+                  effortlessly, enabling faster decisions, reducing variability
+                  and improving patient outcomes on a global scale.
+                </p>
               </div>
             </div>
           </div>
@@ -441,8 +447,8 @@ export default function TeamPage() {
               className="text-lg text-gray-600"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Decades of combined expertise in AI, medicine, and healthcare
-              technology
+              A driven founding team, guided by advisors with deep expertise in
+              medicine, AI and healthcare technology.
             </p>
             <div className="flex items-center justify-center gap-3 mt-6">
               <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full" />
@@ -466,12 +472,22 @@ export default function TeamPage() {
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
+                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700 hover:brightness-100 cursor-pointer"
                   />
+                  <a
+                    href={founder.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute left-1/2 -translate-x-1/2 bottom-[40px] 
+                   opacity-0 group-hover:opacity-100 duration-300 z-10"
+                  >
+                    <div className="bg-white/90 p-3 rounded-full shadow-lg hover:scale-110 transition">
+                      <Linkedin className="w-6 h-6 text-blue-600" />
+                    </div>
+                  </a>
 
                   {/* Gradient Overlay on Hover */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
+                  <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
 
                 <div className="p-8 relative">
@@ -490,23 +506,86 @@ export default function TeamPage() {
                   >
                     {founder.role}
                   </p>
-                  <p
-                    className="text-gray-600 leading-relaxed mb-6 relative z-10"
-                    style={{ fontFamily: "Inter, sans-serif" }}
-                  >
-                    {founder.bio}
-                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Advisors Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div
+            id="technical-title"
+            data-animate
+            className={`text-center mb-16 ${
+              isVisible["technical-title"] ? "animate-fadeInUp" : "opacity-0"
+            }`}
+          >
+            <h2
+              className="text-4xl font-bold text-gray-900 mb-4"
+              style={{ fontFamily: "Poppins, sans-serif" }}
+            >
+              Advisors
+            </h2>
+
+            <div className="flex items-center justify-center gap-3 mt-6">
+              <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full" />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-10">
+            {technical.map((technical, idx) => (
+              <div
+                key={idx}
+                id={`technical-${idx}`}
+                data-animate
+                className={`group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 ${
+                  isVisible[`technical-${idx}`]
+                    ? "animate-fadeInScale"
+                    : "opacity-0"
+                }`}
+                style={{ animationDelay: `${idx * 0.2}s` }}
+              >
+                <div className="relative overflow-hidden image-reveal">
+                  <img
+                    src={technical.image}
+                    alt={technical.name}
+                    className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
                   <a
-                    href={founder.linkedin}
-                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-all duration-300 group/link relative z-10"
+                    href={technical.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute left-1/2 -translate-x-1/2 bottom-[40px] 
+                   opacity-0 group-hover:opacity-100 duration-300 z-10"
+                  >
+                    <div className="bg-white/90 p-3 rounded-full shadow-lg hover:scale-110 transition">
+                      <Linkedin className="w-6 h-6 text-blue-600" />
+                    </div>
+                  </a>
+
+                  {/* Gradient Overlay on Hover */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                </div>
+
+                <div className="p-8 relative">
+                  {/* Decorative Corner Element */}
+                  <div className="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-blue-100 to-transparent rounded-br-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
+                  <h3
+                    className="text-2xl font-bold text-gray-900 mb-2 relative z-10"
+                    style={{ fontFamily: "Poppins, sans-serif" }}
+                  >
+                    {technical.name}
+                  </h3>
+                  <p
+                    className="text-blue-600 font-semibold mb-4 relative z-10"
                     style={{ fontFamily: "Inter, sans-serif" }}
                   >
-                    <Linkedin className="w-5 h-5 group-hover/link:scale-110 transition-transform" />
-                    <span className="relative">
-                      Connect on LinkedIn
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 group-hover/link:w-full transition-all duration-300" />
-                    </span>
-                  </a>
+                    {technical.role}
+                  </p>
                 </div>
               </div>
             ))}
@@ -515,36 +594,36 @@ export default function TeamPage() {
       </section>
 
       {/* Advisors & Partners */}
-      <section className="py-20 px-6 relative">
+      {/* <section className="py-20 px-6 relative">
         <div className="absolute inset-0 bg-white/30 backdrop-blur-sm" />
 
         <div className="max-w-6xl mx-auto relative z-10">
           <div
             id="advisors-title"
-            data-animate
-            className={`text-center mb-16 ${
+            data-animate */}
+      {/* className={`text-center mb-16 ${
               isVisible["advisors-title"] ? "animate-fadeInUp" : "opacity-0"
             }`}
-          >
-            <h2
+          > */}
+      {/* <h2
               className="text-4xl font-bold text-gray-900 mb-4"
               style={{ fontFamily: "Poppins, sans-serif" }}
             >
               Trusted Partners
-            </h2>
-            <p
+            </h2> */}
+      {/* <p
               className="text-lg text-gray-600"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               Collaborating with world-leading medical institutions and research
               centers
-            </p>
-            <div className="flex items-center justify-center gap-3 mt-6">
+            </p> */}
+      {/* <div className="flex items-center justify-center gap-3 mt-6">
               <div className="h-1 w-20 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full" />
             </div>
-          </div>
+          </div> */}
 
-          <div className="grid md:grid-cols-4 gap-6">
+      {/* <div className="grid md:grid-cols-4 gap-6">
             {advisors.map((advisor, idx) => (
               <div
                 key={idx}
@@ -554,9 +633,9 @@ export default function TeamPage() {
                   isVisible[`advisor-${idx}`] ? "animate-rotateIn" : "opacity-0"
                 }`}
                 style={{ animationDelay: `${idx * 0.1}s` }}
-              >
-                {/* Animated Background on Hover */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/10 group-hover:to-cyan-500/10 transition-all duration-500" />
+              > */}
+      {/* Animated Background on Hover */}
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-blue-500/0 to-cyan-500/0 group-hover:from-blue-500/10 group-hover:to-cyan-500/10 transition-all duration-500" />
 
                 <div className="relative">
                   <div
@@ -579,10 +658,10 @@ export default function TeamPage() {
                   </p>
                 </div>
               </div>
-            ))}
-          </div>
+            ))} */}
+      {/* </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 px-6">
@@ -603,7 +682,7 @@ export default function TeamPage() {
           />
 
           {/* Floating Particles */}
-          <div className="absolute top-10 left-10 w-4 h-4 bg-white/30 rounded-full animate-float" />
+          {/* <div className="absolute top-10 left-10 w-4 h-4 bg-white/30 rounded-full animate-float" />
           <div
             className="absolute top-20 right-20 w-3 h-3 bg-white/20 rounded-full animate-float"
             style={{ animationDelay: "1s" }}
@@ -611,7 +690,7 @@ export default function TeamPage() {
           <div
             className="absolute bottom-10 left-1/4 w-5 h-5 bg-white/25 rounded-full animate-float"
             style={{ animationDelay: "2s" }}
-          />
+          /> */}
 
           <div className="relative z-10">
             <h2
@@ -627,8 +706,9 @@ export default function TeamPage() {
               We're always looking for talented individuals passionate about
               transforming healthcare through AI
             </p>
-            <Link to="/contact"
-              className="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+            <Link
+              to="/contact"
+              className="bg-white text-blue-600 px-3 py-3 md:px-8 md:py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
               View Open Positions →

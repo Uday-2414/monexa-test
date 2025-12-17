@@ -14,9 +14,9 @@ const buildKeyframes = (from, steps) => {
   return keyframes;
 };
 
-const BlurText = ({
+const NextText = ({
   text = '',
-  delay = 100,
+  delay = 200,
   className = '',
   // "words" | "chars" | "line"
   animateBy = 'line',
@@ -125,4 +125,5 @@ const BlurText = ({
   );
 };
 
-export default BlurText;
+export default NextText;
+ 
