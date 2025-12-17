@@ -9,11 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-<<<<<<< Updated upstream
-=======
     "deploy:docs": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
     "predeploy": "npm run build",
->>>>>>> Stashed changes
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
